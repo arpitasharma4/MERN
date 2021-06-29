@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express();
-const adminController = require("../controllers/AdminController");
+const adminController = require("../controllers/AdminControllers");
 
 router.post("/admin/signup", adminController.signup);
 
